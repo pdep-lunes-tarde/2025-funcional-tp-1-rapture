@@ -4,13 +4,14 @@ import PdePreludat
 -- 1. Numeros
 
 siguiente :: Number -> Number
-siguiente = implementame
+siguiente num = num + 1
 
 esPositivo :: Number -> Bool
-esPositivo = implementame
+esPositivo num = num > 0 
 
 -- escriban el tipo de esta función
-inversa n = implementame
+inversa :: Number -> Number
+inversa num = 1 / num
 
 -- 2. Temperaturas
 
@@ -28,16 +29,16 @@ haceFrioFahrenheit grados = implementame
 
 -- 2.5 Bonus OPCIONAL
 perimetroCirculo :: Number -> Number
-perimetroCirculo radio = implementame
+perimetroCirculo radio = 2 * pi * radio
 
 perimetroCuadrado :: Number -> Number
-perimetroCuadrado lado = implementame
+perimetroCuadrado lado = lado * 4
 
 superficieCuadrado :: Number -> Number
-superficieCuadrado lado = implementame
+superficieCuadrado lado = lado * lado
 
 superficieCubo :: Number -> Number
-superficieCubo lado = implementame
+superficieCubo lado = 6 * lado * lado
 
 superficieCilindro :: Number -> Number -> Number
-superficieCilindro radio altura = implementame
+superficieCilindro radio altura = 2 * pi * radio * (radio + altura)
