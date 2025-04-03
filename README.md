@@ -2,11 +2,11 @@
 
 ## Grupo, nombre y legajo de integrantes
 
-- Nombre del grupo: **Completar**
+- Nombre del grupo: Rapture Δ
 
 Integrantes:
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 2040712
+- Nombre: Ramiro Silva
 
 - Legajo: **Completar** 
 - Nombre: **Completar**
