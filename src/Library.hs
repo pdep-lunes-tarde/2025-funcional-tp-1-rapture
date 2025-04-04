@@ -16,16 +16,18 @@ inversa num = 1 / num
 -- 2. Temperaturas
 
 celsiusAFahrenheit :: Number -> Number
-celsiusAFahrenheit celsius = implementame
+celsiusAFahrenheit celsius = celsius * 1.8 + 32
 
 fahrenheitACelsius :: Number -> Number
-fahrenheitACelsius fahrenheit = implementame
+fahrenheitACelsius fahrenheit = (fahrenheit - 32) / 1.8
 
 -- escriban el tipo de esta función
-haceFrioCelsius grados = implementame
+haceFrioCelsius :: Number -> Bool
+haceFrioCelsius gradosCelsius = gradosCelsius <= 8
 
 -- escriban el tipo de esta función
-haceFrioFahrenheit grados = implementame
+haceFrioFahrenheit :: Number -> Bool
+haceFrioFahrenheit gradosFahrenheit = (fahrenheitACelsius gradosFahrenheit) <= 8
 
 -- 2.5 Bonus OPCIONAL
 perimetroCirculo :: Number -> Number
