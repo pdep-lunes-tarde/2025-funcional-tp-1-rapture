@@ -8,8 +8,8 @@ Integrantes:
 - Legajo: 2040712
 - Nombre: Ramiro Silva
 
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 2038365
+- Nombre: Francisco Meaurio
 
 
 ## Objetivos
